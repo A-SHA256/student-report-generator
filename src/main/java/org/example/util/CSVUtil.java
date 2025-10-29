@@ -33,7 +33,7 @@ public class CSVUtil {
                     .parse();
             System.out.println("Fetched from CSV");
         } catch (Exception ex) {
-            System.out.println("Error writing to CSV: " + ex.getMessage());
+            System.out.println("Error reading from CSV: " + ex.getMessage());
         }
         return studentRecords;
     }
